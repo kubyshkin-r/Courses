@@ -113,6 +113,7 @@ let i = 0;
     i++;
  }
 */
+/*
  let i = 0;
  do{
     let newStudent = prompt('Введите имя нового студента!');
@@ -122,3 +123,13 @@ let i = 0;
     }
     i++;
  }while(i < 3);
+*/
+
+//задание 5
+
+let sum = 0;
+for(let i = 1; i <= 100; i++){
+    sum += i;
+    console.log(sum);
+}
+alert(sum);
